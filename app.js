@@ -9,11 +9,10 @@ const outputValue = document.getElementById('outputValue')
     if(inputvalue==="" || noofpersons===""){
         alert("Enter a input fileds")
     }else if(inputvalue <=0 || isNaN(inputvalue)){
-        alert("Enter Vaild Bill Amount")
-        // document.getElementById('inputvalue_alret').style.visibility = "visible"
+       
+        document.getElementById('inputvalue_alret').style.visibility = "visible"
     }else if(noofpersons <=1 || isNaN(noofpersons)){
-        alert("Enter How Many Number of Persons in Number formate only")
-        // document.getElementById('noofpersons_alret').style.visibility = "visible"
+        document.getElementById('noofpersons_alret').style.visibility = "visible"
     }else if(inputvalue <= 100){
         centralGST.innerHTML = "CGST: ZERO TAX";
         stateGST.innerHTML = "SGST: ZERO TAX";
