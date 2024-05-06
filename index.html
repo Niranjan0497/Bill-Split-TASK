@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="container_heading">Bill Split App</h1>
+        <hr>
+        <label for="inputvalue">Enter Bill Amount`:</label>
+        <input type="text" id="inputvalue" placeholder="Enter Bill Amount">
+        <!-- <label for="inputvalue" id="inputvalue_alret">(Enter Vaild Bill Amount)</label> --><br><br>
+
+        <label for="noofpersons">Enter Number Persons:</label>
+        <input type="text" id="noofpersons" placeholder="Enter No of Persons">
+        <!-- <label for="noofpersons" id="noofpersons_alret"> (Enter Number of Persons in Number formate only)</label> -->
+        <p id="centralGST">CGST : </p>
+        <p id="stateGST">SGST : </p>
+
+        <input type="checkbox" id="discountOnBill" ><br>
+        <label for="discountOnBill">(Extra Discount for Members)</label><br><br>
+
+        <input type="text" id="outputValue" placeholder="Output"><br><br>
+        <button type="button" onclick="billSplit()">Split the Amount</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

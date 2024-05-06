@@ -1,0 +1,41 @@
+.container{
+    width: 350px;
+    border: 1px solid #DAE0E2;
+    margin: 150px auto;
+    padding: 0px 20px 10px 20px;
+    border-radius: 10px;
+}
+.container label{
+    color: #616C6F;
+}
+
+#container_heading{
+    text-align: center;
+}
+.container input{
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.container button{
+    padding: 15px 20px;
+    background-color: #1BCA9B;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    /* border-radius: 10px; */
+}
+.container button:hover{
+ background-color:white;
+ border: 1px solid black;
+ color: black;
+}
+/* #inputvalue_alret{
+    color: red;
+    visibility: hidden;
+}
+#noofpersons_alret{
+    color: red;
+    visibility: hidden;
+} */
